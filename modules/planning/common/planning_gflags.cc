@@ -18,7 +18,7 @@
 
 #include <limits>
 
-DEFINE_bool(planning_test_mode, false, "Enable planning test mode.");
+DEFINE_bool(planning_test_mode, true, "Enable planning test mode.");
 
 DEFINE_double(test_duration, -1.0,
               "The runtime duration in test mode. There is no runtime limit if "
