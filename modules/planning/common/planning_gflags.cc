@@ -165,7 +165,7 @@ DEFINE_bool(enable_trajectory_check, false,
             "Enable sanity check for planning trajectory.");
 
 DEFINE_double(speed_lower_bound, -0.1, "The lowest speed allowed.");
-DEFINE_double(speed_upper_bound, 40.0, "The highest speed allowed.");
+DEFINE_double(speed_upper_bound, 5, "The highest speed allowed.");
 
 DEFINE_double(longitudinal_acceleration_lower_bound, -4.5,
               "The lowest longitudinal acceleration allowed.");
@@ -421,7 +421,7 @@ DEFINE_bool(enable_perception_obstacles, true,
 DEFINE_bool(enable_open_space_planner_thread, true,
             "Enable thread in open space planner for trajectory publish.");
 
-DEFINE_bool(open_space_planner_switchable, true,
+DEFINE_bool(open_space_planner_switchable, false,
             "true for std planning being able to switch to open space planner "
             "when close enough to target parking spot");
 
