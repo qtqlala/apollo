@@ -5,7 +5,7 @@ stage_config: {
   enabled: true
   task_type: DECIDER_RULE_BASED_STOP
   task_type: DP_POLY_PATH_OPTIMIZER
-# task_type: QP_PIECEWISE_JERK_PATH_OPTIMIZER
+  task_type: QP_PIECEWISE_JERK_PATH_OPTIMIZER
   task_type: PATH_DECIDER
   task_type: DP_ST_SPEED_OPTIMIZER
   task_type: SPEED_DECIDER
