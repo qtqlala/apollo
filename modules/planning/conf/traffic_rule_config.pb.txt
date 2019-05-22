@@ -56,7 +56,7 @@ config: {
 
 config: {
   rule_id: PULL_OVER
-  enabled: true
+  enabled: false
   pull_over {
     stop_distance: 0.5
     max_stop_speed: 0.2
@@ -91,7 +91,7 @@ config: {
 
 config: {
   rule_id: SIGNAL_LIGHT
-  enabled: true
+  enabled: false
   signal_light {
     stop_distance: 1.0
     max_stop_deceleration: 6.0
