@@ -421,7 +421,7 @@ DEFINE_bool(enable_perception_obstacles, true,
 DEFINE_bool(enable_open_space_planner_thread, true,
             "Enable thread in open space planner for trajectory publish.");
 
-DEFINE_bool(open_space_planner_switchable,true,
+DEFINE_bool(open_space_planner_switchable,false,
             "true for std planning being able to switch to open space planner "
             "when close enough to target parking spot");
 
